@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\FrontendController;
 use App\Http\Controllers\ServisController;
 use App\Http\Controllers\UserController;
@@ -57,4 +58,7 @@ Route::get('/home', [FrontendController::class, 'index'])->name('home');
 // Route Laporan
 Route::resource('akun', AkunController::class);
 Route::resource('laporan', PembukuanController::class);
-Route::get('/laporan/pdf', [LaporanController::class, 'generatePDF'])->name('laporan.pdf');
+Route::get('/generate-pdf', [LaporanController::class, 'generatePdf'])->name('generate.pdf');
+
+// Route Dashboard Admin
+Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard.index');

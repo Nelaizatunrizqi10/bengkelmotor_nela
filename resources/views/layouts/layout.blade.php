@@ -93,8 +93,16 @@
             <div class="sidebar-inner slimscroll">
                 <div id="sidebar-menu" class="sidebar-menu">
                     <ul>
+                        <li class="{{ strpos(Route::currentRouteName(), 'dashboard') !== false ? 'nav-item active' : 'nav-item' }}">
+                            <a href="{{ route('dashboard.index') }}"><i data-feather="monitor"></i><span> Dashboard</span></a>
+                        </li>
+
                         <li class="{{ strpos(Route::currentRouteName(), 'user') !== false ? 'nav-item active' : 'nav-item' }}">
                             <a href="{{ route('user.index') }}"><i data-feather="users"></i><span> Master User</span></a>
+                        </li>
+
+                        <li class="{{ strpos(Route::currentRouteName(), 'profile') !== false ? 'nav-item active' : 'nav-item' }}">
+                            <a href="{{ route('profile.index') }}"><i data-feather="user"></i><span> Master Profile</span></a>
                         </li>
 
                         <li class="submenu">

@@ -35,13 +35,13 @@
 </head>
 <body>
     <div class="kop-bengkel">
-        <h1>Nama Bengkel</h1>
-        <p>Alamat Bengkel</p>
-        <p>Telepon Bengkel</p>
+        <h1>NEGATAMI MOTOR</h1>
+        <p>Jalan. Tegal raya, Kota Tegal, Jawa Tengah</p>
+        <p>+62 889 - 098 - 5419</p>
     </div>
-    
+
     <h3>Laporan Akuntansi</h3>
-    
+
     <table>
         <thead>
             <tr>

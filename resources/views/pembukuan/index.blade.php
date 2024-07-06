@@ -36,13 +36,10 @@
                             <div class="wordset">
                                 <ul>
                                     <li>
-                                        <a href="{{ route('laporan.pdf') }}" data-bs-toggle="tooltip" data-bs-placement="top" title="pdf">
+                                        <a href="{{ route('generate.pdf') }}" data-bs-toggle="tooltip" data-bs-placement="top" title="pdf">
                                             <img src="{{ asset('Template/img/icons/pdf.svg') }}">
                                         </a>
                                     </li>
-                                    {{-- <li>
-                                        <a data-bs-toggle="tooltip" data-bs-placement="top" title="pdf"><img src="{{ asset('Template/img/icons/pdf.svg') }}"></a>
-                                    </li> --}}
                                     <li>
                                         <a data-bs-toggle="tooltip" data-bs-placement="top" title="excel"><img src="{{ asset('Template/img/icons/excel.svg') }}"></a>
                                     </li>

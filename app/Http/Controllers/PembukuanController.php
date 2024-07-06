@@ -70,6 +70,6 @@ class PembukuanController extends Controller
     {
         $pembukuan = Pembukuan::findOrFail($id);
         $pembukuan->delete();
-        return redirect()->route('pembukuan.index')->with('success', 'Data Berhasil Dihapus!');
+        return redirect()->route('/laporan')->with('success', 'Data Berhasil Dihapus!');
     }
 }

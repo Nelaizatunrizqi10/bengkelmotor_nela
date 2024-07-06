@@ -24,7 +24,7 @@
             <div class="login-content">
                 <div class="login-userset">
                     <div class="login-logo">
-                        <img src="{{ asset('Template/img/logologin.png') }}" alt="img">
+                        <img src="{{ asset('Template/img/logologin.jpg') }}" alt="img">
                     </div>
                     <div class="login-userheading">
                         <h3>Sign In</h3>
